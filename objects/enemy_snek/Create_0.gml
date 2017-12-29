@@ -1,2 +1,2 @@
-damage_snek = 20
+damage_snek = 15
 hp = 100
