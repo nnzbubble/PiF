@@ -24,5 +24,14 @@ camera_set_view_pos(camera,x-widthHalf,y-heightHalf);
 if(keyboard_check(ord("R")) == true)
 room_goto(1);
 
-if(keyboard_check(ord("T")) == true)
-window_set_fullscreen(true);
+
+if(keyboard_check(ord("T")) == true && isFullScreen)
+{
+	window_set_fullscreen(false);
+	isFullScreen = false;
+}
+else if (keyboard_check(ord("Y")) == true && !isFullScreen)
+{
+	window_set_fullscreen(true);
+	isFullScreen = true;
+}
