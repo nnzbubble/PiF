@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1c05fa3e-fe28-4d16-8be7-f2aeba461f6d",
+            "Value": {
+                "id": "f0c5f672-04b6-470d-9977-4c082ce9da3d",
+                "resourcePath": "objects\\swordPickup\\swordPickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f1d0b4e-cda2-4c44-952b-bfc44bea8d76",
             "Value": {
                 "id": "120fa66b-f9d7-4e27-be50-a3457bf9944e",
@@ -212,6 +220,14 @@
                 "id": "ddfd94df-394f-41eb-90c5-f4237cd8c290",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cdca8be9-a664-443f-b567-dfb4cc031e13",
+            "Value": {
+                "id": "98c9a4c9-92f4-4399-90c6-8fd4b0523827",
+                "resourcePath": "views\\cdca8be9-a664-443f-b567-dfb4cc031e13.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
