@@ -1,6 +1,7 @@
 //states
 script_execute(state);
 
+
 //death
 if hp <= 0{
 //	instance.destroy();
