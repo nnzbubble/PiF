@@ -23,25 +23,25 @@ else if !key_up && !key_down
 	player_dy = 0
 	
 //collision
-//if(place_meeting(x+player_dx,y,wall1)){
+if(place_meeting(x+player_dx,y,wall1)){
 
-//	while(!place_meeting(x+sign(player_dx),y,wall1)){
-//		x += sign(player_dx);
-//	}
-//	player_dx = 0;
+	while(!place_meeting(x+sign(player_dx),y,wall1)){
+		x += sign(player_dx);
+	}
+	player_dx = 0;
 
-//}
+}
 
 x += player_dx;
 
-//if(place_meeting(x,y+player_dy,wall1)){
+if(place_meeting(x,y+player_dy,wall1)){
 
-//	while(!place_meeting(x,y+sign(player_dy),wall1)){
-//		y += sign(player_dy);
-//	}
+  while(!place_meeting(x,y+sign(player_dy),wall1)){
+    y += sign(player_dy);
+  }
 	
-//	player_dy = 0;
-//}
+  player_dy = 0;
+}
 
 y += player_dy
 
@@ -52,18 +52,27 @@ else
 	player_frame = 0
 
 
-//hit detection and recoiling
-if (bool_hit==1){  
-playerRecoil=1; // activates/how long the recoil effect lasts for
+//Recoil
+if(playerRecoil!=-1){
+    playerRecoil-=1;
+   direction = point_direction(x,y,collision_x,collision_y)-180; //opposite direction that the player is currently facing
+   speed= recoilSpeed;
+   playerStop=1;
 }
 
-while(playerRecoil!=-1){
-    playerRecoil-=1;
-   direction = image_angle-180; //opposite direction that the player is currently facing
-   speed= recoilSpeed;
+if(playerRecoil==-1){
+	direction = point_direction(x,y,collision_x,collision_y);
 }
+
+if(playerRecoil=-1 && playerStop=1){
+    speed=0;
+    playerStop=-1;
+}
+
 
 //death
 if hp <= 0{
 	game_end();
 }
+
+
