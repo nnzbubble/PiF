@@ -5,6 +5,8 @@ player_frame = 0
 
 player_dx = 0
 player_dy = 0
+dx = player_dx
+dy = player_dy
 
 hp = 100;
 

@@ -1,4 +1,5 @@
-
+dx = player_dx
+dy = player_dy
 mouse_direction = point_direction(x,y,mouse_x,mouse_y)
 
 key_up = keyboard_check(ord("W"))
