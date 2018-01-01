@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "7aaeebbc-8904-4fed-9241-d480cad616aa",
+            "Value": {
+                "id": "e76a8a14-4bb8-4b06-9214-bbccadba1c49",
+                "resourcePath": "sprites\\swordHold\\swordHold.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8e168781-8d57-4cba-95ec-0d19829b6c54",
             "Value": {
                 "id": "84cf83ed-ade8-494f-910f-a52f23ece509",
