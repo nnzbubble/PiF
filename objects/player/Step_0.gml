@@ -24,9 +24,13 @@ else if !key_up && !key_down
 	player_dy = 0
 	
 //collision
-if(place_meeting(x+player_dx,y,wall1)){
+if(place_meeting(x+player_dx,y,wall1) 
+	|| place_meeting(x+player_dx,y,removable_wall_1)
+	||  place_meeting(x+player_dx,y,removable_wall_2)){
 
-	while(!place_meeting(x+sign(player_dx),y,wall1)){
+	while(!place_meeting(x+sign(player_dx),y,wall1)
+		&& !place_meeting(x+sign(player_dx),y,removable_wall_1)
+		&& !place_meeting(x+sign(player_dx),y,removable_wall_2)){
 		x += sign(player_dx);
 	}
 	player_dx = 0;
@@ -35,9 +39,13 @@ if(place_meeting(x+player_dx,y,wall1)){
 
 x += player_dx;
 
-if(place_meeting(x,y+player_dy,wall1)){
+if(place_meeting(x,y+player_dy,wall1)
+	|| place_meeting(x,y+player_dy,removable_wall_1)
+	||  place_meeting(x,y+player_dy,removable_wall_2)){
 
-  while(!place_meeting(x,y+sign(player_dy),wall1)){
+  while(!place_meeting(x,y+sign(player_dy),wall1)
+	&& !place_meeting(x,y+sign(player_dy),removable_wall_1)
+	&& !place_meeting(x,y+sign(player_dy),removable_wall_2)){
     y += sign(player_dy);
   }
 	
