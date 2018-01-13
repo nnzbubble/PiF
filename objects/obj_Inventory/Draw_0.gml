@@ -25,7 +25,6 @@ if(showInv)
 			draw_sprite(spr_items, global.inventory[i],x1+12+(i*64),y1+12);
 		}
 	}
-		
 
 
 

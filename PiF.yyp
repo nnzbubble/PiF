@@ -381,6 +381,25 @@
             }
         },
         {
+            "Key": "5dd85aec-fda0-4d98-9d79-f6cf7431a751",
+            "Value": {
+                "id": "b1207274-9fa9-492f-96d0-2165f6c5a8c6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/chest\/chest.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5e4d86ba-98b9-4bed-a00b-e336897aefc2",
             "Value": {
                 "id": "9c345a13-4e43-4d52-9442-ddca53cd0a6d",
@@ -894,6 +913,25 @@
             }
         },
         {
+            "Key": "e58eea2b-30b3-4451-939f-5b3e473bab0e",
+            "Value": {
+                "id": "b5fff6f3-cb64-40a1-a377-dd4e7f7db1a4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/chestSprite\/chestSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eab400f1-65a3-47b6-8410-9b0aed970616",
             "Value": {
                 "id": "4508ea3e-143d-4524-8537-8bc90be68343",
@@ -1025,11 +1063,31 @@
                 "resourcePath": "objects\/player\/player.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "fea79f39-77c4-4e54-8749-3fe87ac00bb0",
+            "Value": {
+                "id": "a895e5cc-5cd9-43ae-ae17-4672bd7e0150",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/pickup_move\/pickup_move.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
         "4e04ac27-5ede-4097-b5e0-3ebc50d2aa45",
-        "c8477415-ad64-4819-930d-48a50dbd39b1"
+        "c8477415-ad64-4819-930d-48a50dbd39b1",
+        "fea79f39-77c4-4e54-8749-3fe87ac00bb0"
     ],
     "tutorial": ""
 }
