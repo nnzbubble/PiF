@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "11ae42ad-17ed-4760-9b28-26b6f22419cf",
+            "Value": {
+                "id": "87fd9927-0f0f-4940-ad3a-2238208e90cb",
+                "resourcePath": "objects\\obj_Inventory\\obj_Inventory.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "162a2346-368f-4203-8a6a-073e24a9c037",
             "Value": {
                 "id": "daed25ed-0088-42fd-97b3-a21c40e5831e",
@@ -203,6 +211,14 @@
             "Value": {
                 "id": "e76a8a14-4bb8-4b06-9214-bbccadba1c49",
                 "resourcePath": "sprites\\swordHold\\swordHold.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "827478a8-72e1-488f-b3d5-2a95a84d848b",
+            "Value": {
+                "id": "2dceedf8-ddd1-47ff-9072-f5d1fae0ebfb",
+                "resourcePath": "sprites\\spr_items\\spr_items.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -404,6 +420,14 @@
                 "id": "5152391b-936d-4d7f-ae45-5f73b0fc74f7",
                 "resourcePath": "views\\f1250db7-1b19-4833-93e4-68e96d895691.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f51f0b85-c2a6-4daa-9d3c-12aa9a1861d1",
+            "Value": {
+                "id": "4aeeb078-ad7f-49b8-9c5b-02f0d65c1ee9",
+                "resourcePath": "sprites\\spr_border\\spr_border.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
