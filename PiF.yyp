@@ -514,6 +514,25 @@
             }
         },
         {
+            "Key": "84e02177-08fb-478a-9f48-3286542f7c24",
+            "Value": {
+                "id": "98a6daff-3cdb-4517-9e5e-19d46c3aba49",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/destroy_held_obj\/destroy_held_obj.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8e168781-8d57-4cba-95ec-0d19829b6c54",
             "Value": {
                 "id": "84cf83ed-ade8-494f-910f-a52f23ece509",
@@ -818,6 +837,25 @@
             }
         },
         {
+            "Key": "d342f948-d0ab-422e-9670-5fd360a497df",
+            "Value": {
+                "id": "fc6be0f0-f5c1-425e-a98c-7c484dfc2f3d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/sword_hold\/sword_hold.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d7cdcab2-0c62-4890-9467-5b6e712c1f66",
             "Value": {
                 "id": "3b18ffa1-2450-4690-889f-e1c82267b34b",
@@ -1087,7 +1125,8 @@
     "script_order": [
         "4e04ac27-5ede-4097-b5e0-3ebc50d2aa45",
         "c8477415-ad64-4819-930d-48a50dbd39b1",
-        "fea79f39-77c4-4e54-8749-3fe87ac00bb0"
+        "fea79f39-77c4-4e54-8749-3fe87ac00bb0",
+        "84e02177-08fb-478a-9f48-3286542f7c24"
     ],
     "tutorial": ""
 }

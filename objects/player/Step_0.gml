@@ -23,6 +23,44 @@ else if !key_up && key_down
 else if !key_up && !key_down 
 	player_dy = 0
 	
+
+//inventory controls
+if keyboard_check_pressed(vk_tab)
+{
+	item_held_index++;
+	if(item_held_index > 5)	//todo: change 5 to maxItem
+		item_held_index = 0;
+
+	destroy_held_obj();
+	
+	if(global.inventory[item_held_index] =! -1)
+	{
+		switch(item_held_index)
+		{
+			case 1:	
+				//instance_create_depth(x, y, 1,sword_hold);
+				break;
+			case 2:	
+				//instance_create_depth(x, y, 1,sword_hold);
+				break;
+			case 3:	
+				instance_create_depth(x, y, 1,sword_hold);
+				break;
+			case 4:	
+				//instance_create_depth(x, y, 1,sword_hold);
+				break;
+			case 5:	
+				//instance_create_depth(x, y, 1,sword_hold);
+				break;
+				
+			default:
+				break;
+		}
+	
+	}
+}
+
+	
 //collision
 if(place_meeting(x+player_dx,y,wall1) 
 	|| place_meeting(x+player_dx,y,removable_wall_1)

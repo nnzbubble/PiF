@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "swordPickup",
     "eventList": [
-        
+        {
+            "id": "e2850945-5fe6-4869-9e93-6ac49c0d48e6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "f7d24ed1-3301-45da-80be-43e005be933e",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "1c05fa3e-fe28-4d16-8be7-f2aeba461f6d"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

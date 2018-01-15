@@ -1,7 +1,7 @@
 
 player_speed = 300/room_speed
-
 player_frame = 0
+mouseDirection = 0
 
 player_dx = 0
 player_dy = 0
@@ -20,3 +20,5 @@ collision_x = 0;
 collision_y = 0;
 
 global.coinCount = 0;
+
+item_held_index = 2;
